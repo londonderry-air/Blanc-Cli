@@ -1,9 +1,6 @@
 export type ComponentInfo = {
-    name: string,
-    group: string
-}
+	name: string;
+	group: string;
+};
 
-export type MessageType = 'success'
-    | 'error'
-    | 'caution'
-    | 'default'
+export type MessageType = 'success' | 'error' | 'caution' | 'default';

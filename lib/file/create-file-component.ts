@@ -7,7 +7,7 @@ import { ComponentInfo } from '$/types';
 export default (info: ComponentInfo) => {
 	const dir = getDirs();
 	const componentDir = dir.component + `/${info.group}`;
-	const filePath = componentDir + `/blanc-element-${info.name}.ts`;
+	const filePath = componentDir + `/blanc-element-${info.name}.tsx`;
 
 	createDirIfNotExist(componentDir);
 	createComponentFileIfNotExist(filePath, info);
